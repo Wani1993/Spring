@@ -9,7 +9,7 @@ public interface CarRepository {
 	public Car getById(int id);
 	// 하나의 행 추가
 	public int add(Car car);
-	// 자동차 목록 추가하기
+	// 자동차 목록 추가하기 (여러개)
 	public int[] batchInsert(List<Car> list);
 	// 하나의 행 수정
 	public int update(Car car);
